@@ -19,6 +19,7 @@ jQuery(document).ready(function( $ ) {
   // Intro background carousel
   $("#intro-carousel").owlCarousel({
     autoplay: true,
+    autoplayTimeout: 2000, // Set autoplay speed to 2 seconds (2000 milliseconds)
     dots: false,
     loop: true,
     animateOut: 'fadeOut',
